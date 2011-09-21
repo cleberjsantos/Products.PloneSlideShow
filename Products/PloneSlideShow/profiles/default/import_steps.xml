@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<import-steps>
+ <import-step id="Products.PloneSlideShow-upgrades" version="20110706-01"
+              handler="Products.PloneSlideShow.setuphandlers.doUpgrades"
+              title="Products.PloneSlideShow - Upgrades">
+  <dependency step="plone_content" />
+  Do upgrades
+ </import-step>
+
+ <import-step id="Products.PloneSlideShow-install_configure_publicator" version="20110706-01"
+              handler="Products.PloneSlideShow.setuphandlers.installConfigurePublicator"
+              title="Products.PloneSlideShow - Install and configure CMFPublicator">
+  <dependency step="Products.CMFPublicator-setupVarious" />
+  Do upgrades
+ </import-step>
+</import-steps>

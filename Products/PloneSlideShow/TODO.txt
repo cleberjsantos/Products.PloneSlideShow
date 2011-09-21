@@ -1,0 +1,7 @@
+- Using jQuery tools the Plone to create Slides
+- Using CMFPublicator and Plone Topics for choice the objects in the Slide
+- Control Panel
+- Templates and Scripts Python
+- CSS
+- Write tests
+- Uninstall profile

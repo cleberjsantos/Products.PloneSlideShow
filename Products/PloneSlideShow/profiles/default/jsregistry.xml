@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+    <!-- Enable plone.app.jquerytools.plugins.js in Plone -->
+    <javascript cacheable="True" compression="none" cookable="True"
+                enabled="True" id="++resource++plone.app.jquerytools.plugins.js" inline="False"
+                expression=""
+                insert-after="++resource++plone.app.jquerytools.js"
+                />
+</object>
+
