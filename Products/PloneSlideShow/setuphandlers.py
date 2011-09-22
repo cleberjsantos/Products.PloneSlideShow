@@ -41,7 +41,7 @@ def add_publicator_box(site):
     if 'slides' not in ids_boxes:
         portal_publicator.addPublicationBox(id='slides',
                                             name='Slides',
-                                            content_type=['News Item','Page' or 'Document'],
+                                            content_type=['News Item','Document'],
                                             n_items=5,
                                             search_states=['published'],
                                             with_image=True,)

@@ -8,6 +8,8 @@
   <five:registerPackage package="." initialize=".initialize" />
 
   <include package=".browser" />
+  <include package=".controlpanel" />
+
   <i18n:registerTranslations directory="locales" />
 
   <genericsetup:registerProfile
@@ -28,5 +30,4 @@
       i18n:attributes="title; description"
       />
 
-  
 </configure>

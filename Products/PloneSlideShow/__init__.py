@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-#from zope.i18nmessageid import MessageFactory
+
+#from zope.i18nmessageid import MessageFactory as BaseMessageFactory
 from Products.PloneSlideShow import config
 
-#MessageFactory = MessageFactory('Products.PloneSlideShow')
+#MessageFactory = BaseMessageFactory('Products.PloneSlideShow')
 
 def initialize(context):
     """Initializer called when used as a Zope 2 product.
